@@ -1,0 +1,5 @@
+## Functions: 
+
+1. Each parameter has two parts: The type of data the argument represents and the name of the parameter
+2. Difference between arguments and parameters. Parameters are passed to the function or method on creation/declaration, but arguments are what are passed when the actual method or function is called. 
+3. Each function has local variables that are usually declared and can only be accessed within that scope of the function.
