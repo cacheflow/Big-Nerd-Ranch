@@ -2,4 +2,7 @@
 
 1. Each parameter has two parts: The type of data the argument represents and the name of the parameter
 2. Difference between arguments and parameters. Parameters are passed to the function or method on creation/declaration, but arguments are what are passed when the actual method or function is called. 
-3. Each function has local variables that are usually declared and can only be accessed within that scope of the function.
+3. Each function has local variables that are usually declared and can only be accessed within that scope of the function. 
+4. When a function is called its frame is pushed to the top of the stack and when it returns it pops off its frame and lets the function that called it resume execution. 
+5. The stack is last-in, first-out priority. 
+6. A variable cannot be accessed outside of the scope it's declared in. Actually it doesn't even technically exist outside of the scope it's declared in.
